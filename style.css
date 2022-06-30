@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+body {
+  background-color: hsla(0, 0%, 98%, 0.623);
+  font-family: 'Poppins';
+}
+header {
+  text-align: center;
+  padding: 3.5em 1.5em;
+}
+header h1 {
+  color: hsl(234, 12%, 34%);
+  font-size: 1.5em;
+  font-weight: 200;
+}
+header h1 span {
+  font-weight: 600;
+}
+header p {
+  color: hsl(229, 6%, 66%);
+  font-size: 0.96em;
+  padding-bottom: 0em;
+  line-height: 1.6em;
+}
+.cards {
+  padding: 1em 1.5em;
+  width: 19.4em;
+}
+.super {
+  background-color: rgb(255, 255, 255);
+  border-top: 0.25em solid hsl(180, 62%, 55%);
+  border-radius: 0.3em;
+  padding: 1em 2em;
+  box-shadow: 1px 4px 10px hsl(0, 0%, 89%);
+  margin-top: 2em;
+}
+.super h2 {
+  font-size: 1.25em;
+  color: hsl(234, 12%, 34%);
+  margin: 0.2em 0em;
+}
+.super p {
+  font-size: 0.8em;
+  color: hsl(229, 6%, 66%);
+  line-height: 1.6em;
+  margin: 0;
+}
+.super img {
+  width: 3.5em;
+  margin-left: 12em;
+  padding-top: 2em;
+}
+.builder {
+  background-color: rgb(255, 255, 255);
+  border-top: 0.25em solid hsl(0, 78%, 62%);
+  border-radius: 0.3em;
+  padding: 1em 2em;
+  box-shadow: 1px 4px 10px hsl(0, 0%, 89%);
+  margin-top: 2em;
+}
+.builder h2 {
+  font-size: 1.25em;
+  color: hsl(234, 12%, 34%);
+  margin: 0.2em 0em;
+}
+.builder p {
+  font-size: 0.8em;
+  color: hsl(229, 6%, 66%);
+  line-height: 1.6em;
+  margin: 0;
+}
+.builder img {
+  width: 3.5em;
+  margin-left: 12em;
+  padding-top: 2em;
+}
+.karma {
+  background-color: rgb(255, 255, 255);
+  border-top: 0.25em solid hsl(34, 97%, 64%);
+  border-radius: 0.3em;
+  padding: 1em 2em;
+  box-shadow: 1px 4px 10px hsl(0, 0%, 89%);
+  margin-top: 2em;
+}
+
+.karma h2 {
+  font-size: 1.25em;
+  color: hsl(234, 12%, 34%);
+  margin: 0.2em 0em;
+}
+.karma p {
+  font-size: 0.8em;
+  color: hsl(229, 6%, 66%);
+  line-height: 1.6em;
+  margin: 0;
+}
+.karma img {
+  width: 3.5em;
+  margin-left: 12em;
+  padding-top: 2em;
+}
+.calculator {
+  background-color: rgb(255, 255, 255);
+  border-top: 0.25em solid hsl(212, 86%, 64%);
+  border-radius: 0.3em;
+  padding: 1em 2em;
+  box-shadow: 1px 4px 10px hsl(0, 0%, 89%);
+  margin-top: 2em;
+}
+.calculator h2 {
+  font-size: 1.25em;
+  color: hsl(234, 12%, 34%);
+  margin: 0.2em 0em;
+}
+.calculator p {
+  font-size: 0.8em;
+  color: hsl(229, 6%, 66%);
+  line-height: 1.6em;
+  margin: 0;
+}
+.calculator img {
+  width: 3.5em;
+  margin-left: 12em;
+  padding-top: 2em;
+}
+@media (min-width: 1440px) {
+  header {
+    padding-bottom: 0;
+    transition: 0.5s ease-in;
+  }
+  header h1 {
+    font-size: 2.5em;
+    padding: 0em 10em;
+    margin: 0;
+  }
+  header p {
+    font-size: 1em;
+    padding: 0 25em;
+  }
+  .cards {
+    display: flex;
+    gap: 2em;
+    margin-left: 9em;
+  }
+  .super {
+    align-self: center;
+    width: auto;
+    padding: 1.5em 2em;
+    transition: 0.3s ease-in;
+  }
+  .super p {
+    padding-bottom: 3em;
+  }
+  .super img {
+    width: 4em;
+    padding: 0;
+    margin-left: 13em;
+  }
+  .builder {
+    width: auto;
+    padding: 1.5em;
+    transition: 0.3s ease-in;
+  }
+  .builder h2 {
+    padding: 0;
+  }
+  .builder p {
+    padding-bottom: 3em;
+  }
+  .builder img {
+    width: 4em;
+    padding: 0;
+    margin-left: 15em;
+  }
+  .karma {
+    width: auto;
+    padding: 1.5em;
+    transition: 0.3s ease-in;
+  }
+  .karma h2 {
+    padding: 0;
+  }
+
+  .karma p {
+    padding-bottom: 3em;
+  }
+  .karma img {
+    width: 4em;
+    padding: 0;
+    margin-left: 15em;
+  }
+  .calculator {
+    align-self: center;
+    width: auto;
+    padding: 1.5em;
+    transition: 0.3s ease-in;
+  }
+  .calculator h2 {
+    padding: 0;
+  }
+
+  .calculator p {
+    padding-bottom: 3em;
+  }
+  .calculator img {
+    width: 4em;
+    padding: 0;
+    margin-left: 15em;
+  }
+}
